@@ -9,73 +9,65 @@ export default function Home() {
 >
  
 
-  <div className="fixed top-0 left-0 w-full bg-black/80 ...">
-  
+  <nav className="relative w-full bg-black/40 backdrop-blur py-10">
+  <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col items-center">
 
-  <div className="absolute inset-0 bg-black/80"></div>
-</div> <nav className="fixed top-0 left-45 w-full bg-black/10 backdrop-blur border-b border-yellow-400/0 z-50">
-        <div className="max-w-25xl mx-auto px-18 py-16 flex justify-between items-center">
-          
-          <div className="hidden md:flex gap-50 text-lg font-semibold">
-            <a href="#eleinssystems@gmail.com" className="text-5xl  md:text-ml-10 mt-6 text-zinc-300">eleinssystems@gmail.cl</a>
-           <img
-  src="/fondo Chile.png"
-  alt="fondo Chile"
-className="-ml-170 mt-1 w-100 mr-1 y-400"
-/>
-          </div>
-        </div>
-      </nav>
+    <a
+      href="mailto:eleinssystems@gmail.com"
+      className="text-zinc-300 text-lg mb-4"
+    >
+      eleinssystems@gmail.com
+    </a>
 
-<section className="relative z-70 pt-10 pb-2 flex flex-col items-center bg-gradient-to-b from-zinc-900/40 to-transparent">
-<img
-  src="/logo2.png"
-  alt="Logo ELEINS SYSTEMS"
-className="w-300 md:w-296 mx-auto mb-2 rounded-2xl"
-/>
-  
+    <img
+      src="/logo2.png"
+      alt="Logo ELEINS SYSTEMS"
+      className="w-[320px] md:w-[500px] h-auto object-contain"
+    />
 
-       <p className="text-5x1 md:text-4xl max-w-15xl mb-8 font-semibold text-metalic-400"> 
-          Fabricación de Tableros Eléctricos, Control Neumático, Soluciones para Procesos Productivos, Automatización y Control industrial.
-        </p>
+    <p className="text-center text-xl md:text-2xl max-w-4xl mt-6 font-semibold text-zinc-300">
+      Fabricación de Tableros Eléctricos, Control Neumático,
+      Soluciones para Procesos Productivos,
+      Automatización y Control Industrial.
+    </p>
+
+    <div className="flex flex-wrap justify-center gap-4 mt-8">
 
       <a
- 
-  
-><a
-  href="https://eleins-systems.vercel.app/"
-  target="_blank"
-  className="inline-block translate-y-15 mt-3 ml-6 mr-240 bg-yellow-400 text-black px-8 py-4 rounded-2xl text-xl font-bold hover:scale-105 transition"
->
-  Visitar Sitio 
-</a>
- 
-</a>
-   <a
-  href="https://instagram.com/"
-  target="_blank"
-  className="inline-block mt-0 50-20 ml-40 mr-100 -translate-y-0 bg-pink-500 text-white px-8 py-4 rounded-2xl text-xl font-bold hover:scale-105 transition"
->
-  Instagram
-</a>   
- <a
-  href="https://wa.me/56984370601"
-  target="_blank"
-  className="inline-block -translate-y-20 mb-10 mr-150 mt-6 ml-250 bg-green-500 text-white px-8 py-4 rounded-2xl text-xl font-bold hover:scale-105 transition"
->
-  WhatsApp
-</a>
+        href="https://eleinssystems.cl/"
+        target="_blank"
+        className="bg-yellow-400 text-black px-6 py-3 rounded-2xl font-bold"
+      >
+        Sitio Web
+      </a>
 
- <a
-  href="https://maps.app.goo.gl/vXPx4HyGmVAH2jkA9"
-  target="_blank"
-  className="inline-block -translate-y-50 mb-10 mt-6 ml-250 bg-red-500 text-white px-8 py-4 rounded-2xl text-xl font-bold hover:scale-105 transition"
->
-  Google maps
-</a>
+      <a
+        href="https://instagram.com/"
+        target="_blank"
+        className="bg-pink-500 text-white px-6 py-3 rounded-2xl font-bold"
+      >
+        Instagram
+      </a>
 
+      <a
+        href="https://wa.me/56984370601"
+        target="_blank"
+        className="bg-green-500 text-white px-6 py-3 rounded-2xl font-bold"
+      >
+        WhatsApp
+      </a>
 
-</section>
+      <a
+        href="https://maps.app.goo.gl/vXPx4HyGmVAH2jkA9"
+        target="_blank"
+        className="bg-red-500 text-white px-6 py-3 rounded-2xl font-bold"
+      >
+        Google Maps
+      </a>
+
+    </div>
+  </div>
+</nav>
       <section id="servicios" className="py-0 -translate-y-30 px-6 bg-zinc-150">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-5xl font-bold text-yellow-400 mb-10 text-center">
