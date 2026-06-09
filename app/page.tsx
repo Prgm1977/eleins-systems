@@ -13,11 +13,11 @@ export default function Home() {
   <div className="max-w-7xl mx-auto px-6 py-4 flex flex-col items-center">
 
     <a
-      href="mailto:eleinssystems@gmail.com"
-      className="text-zinc-300 text-lg mb-4"
-    >
-      eleinssystems@gmail.com
-    </a>
+  href="mailto:eleinssystems@gmail.com"
+  className="text-zinc-200 text-lg md:text-xl font-semibold mb-4"
+>
+  eleinssystems@gmail.com
+</a>
 
     <img
       src="/logo2.png"
