@@ -68,13 +68,13 @@ export default function Home() {
     </div>
   </div>
 </nav>
-      <section id="servicios" className="py-10 px-6 bg-zinc-950">
+      <section id="servicios" className="pt-6 pb-16 px-6 bg-zinc-950">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-5xl font-bold text-yellow-400 mb-10 text-center">
             Nuestros Servicios
           </h2>
 
-          <div className="grid md:grid grid-cols-1 gap-6">
+          <div className="grid md:grid-cols-2 gap-6">
             <div className="border border-yellow-400/80 rounded-1xl p-6 bg-bg-blackhover:border-yellow-400 hover:scale-105 transition duration-300 shadow-lg shadow-yellow-400/10">
               <h3 className="text-4xl font-bold mb-4">Tableros Eléctricos y de Control</h3>
              <p className="text-2xl font-semibold text-zinc-300 leading-relaxed">
