@@ -40,13 +40,15 @@ export default function Home() {
       >
         Sitio Web
       </a>
-<a
-  href="https://instagram.com/eleinssystems"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  Instagram
-</a>
+
+      <a
+        href="https://www.instagram.com/eleinssystems?igsh=MnJzdnE1ZWpodmoy"
+        target="_blank"
+        className="bg-pink-500 text-white px-6 py-3 rounded-2xl font-bold"
+      >
+        Instagram
+      </a>
+
       <a
         href="https://wa.me/56984370601"
         target="_blank"
