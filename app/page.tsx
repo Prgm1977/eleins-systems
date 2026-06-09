@@ -14,7 +14,7 @@ export default function Home() {
 
     <a
   href="mailto:eleinssystems@gmail.com"
-  className="text-zinc-200 text-lg md:text-xl font-semibold mb-4"
+  className="block text-white text-2xl md:text-3xl font-bold mb-6 tracking-wide"
 >
   eleinssystems@gmail.com
 </a>
