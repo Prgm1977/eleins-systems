@@ -68,7 +68,7 @@ export default function Home() {
     </div>
   </div>
 </nav>
-      <section id="servicios" className="py-0 -translate-y-30 px-6 bg-zinc-150">
+      <section id="servicios" className="py-10 px-6 bg-zinc-950">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-5xl font-bold text-yellow-400 mb-10 text-center">
             Nuestros Servicios
