@@ -42,7 +42,7 @@ export default function Home() {
       </a>
 
       <a
-        href="https://www.instagram.com/eleinssystems?igsh=MnJzdnE1ZWpodmoy"
+        href="https://instagram.com/eleinssystems/"
         target="_blank"
         className="bg-pink-500 text-white px-6 py-3 rounded-2xl font-bold"
       >
