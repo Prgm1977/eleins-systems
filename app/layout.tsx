@@ -12,14 +12,11 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Eleins Systems",
-  description: "Servicios eléctricos, tableros eléctricos, control industrial y automatización.",
-
-  verification: {
-    google: "ppuSN3Vww0R3NwHhv75IooNspDEHcDID8t97L214RTA",
-  },
-};
+export const metadata = {
+  title: "ELEINS SYSTEMS LTDA | Empresa Eléctrica Industrial en La Serena",
+  description:
+    "Empresa eléctrica industrial en La Serena. Fabricación de tableros eléctricos, automatización, control industrial, instrumentación y control neumático.",
+}
 
 
 export default function RootLayout({
